@@ -1,3 +1,19 @@
+
+
+## Week 2 内容总结
+
+## 马鸣谦
+
+### 扫文
+
+- 补充了九篇文章，内容包括
+
+  - 其他functional考虑（天气、人群、交通等）作为related works 相关semantic部分
+
+  - Optimization类型的POI recommendation 主要是一些启发式算法
+
+- 做baseline实现，选择的是扫文里第十篇LSTPM，源代码找到fork在GitHub里了，还在跑
+
 ## Week 1 内容总结
 
 ### 扫文
