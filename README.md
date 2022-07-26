@@ -12,7 +12,11 @@
 
   - Optimization类型的POI recommendation 主要是一些启发式算法
 
-- 做baseline实现，选择的是扫文里第十篇LSTPM，源代码找到fork在GitHub里了，还在跑
+- 做baseline实现，选择的是扫文里第十篇LSTPM，源代码找到fork在GitHub里了，能跑通源代码，在理解和实现
+
+论文具体内容：
+问题：已知当前user过往路径集合S，和现在路径里l1到l(n-1)，预测下一个POI的前k个可能结果
+
 
 ## Week 1 内容总结
 
