@@ -6,6 +6,8 @@
 
 链接：【腾讯文档】MatTrip相关文献整理表 https://docs.qq.com/sheet/DTElDSkROQmpTbVhS
 
+交我算文档：见repo根目录
+
 ## Week 2 内容总结
 
 ## 马鸣谦
