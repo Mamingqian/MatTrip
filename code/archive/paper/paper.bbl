@@ -1,0 +1,161 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{10.1007/978-3-642-35236-2_20}
+Ranieri Baraglia, Claudio Frattari, Cristina~Ioana Muntean, Franco~Maria
+  Nardini, and Fabrizio Silvestri, \emph{A trajectory-based recommender system
+  for tourism}, Active Media Technology (Berlin, Heidelberg) (Runhe Huang,
+  Ali~A. Ghorbani, Gabriella Pasi, Takahira Yamaguchi, Neil~Y. Yen, and Beijing
+  Jin, eds.), Springer Berlin Heidelberg, 2012, pp.~196--205.
+
+\bibitem{DBLP:conf/acl/CohnHB18}
+Trevor Cohn, Gholamreza Haffari, and Daniel Beck, \emph{Graph-to-sequence
+  learning using gated graph neural networks}, Annual Meeting of the
+  Association for Computational Linguistics (ACL), 2018, pp.~273--283.
+
+\bibitem{10.1007/978-3-319-91452-7_45}
+Jingze Cui, Xian Zhou, Yanmin Zhu, and Yanyan Shen, \emph{A road-aware neural
+  network for multi-step vehicle trajectory prediction}, Database Systems for
+  Advanced Applications (DASFAA) (Cham) (Jian Pei, Yannis Manolopoulos, Shazia
+  Sadiq, and Jianxin Li, eds.), Springer International Publishing, 2018,
+  pp.~701--716.
+
+\bibitem{7113313}
+J.~Dai, B.~Yang, C.~Guo, and Z.~Ding, \emph{Personalized route recommendation
+  using big trajectory data}, IEEE International Conference on Data Engineering
+  (ICDE), April 2015, pp.~543--554.
+
+\bibitem{AAAI159560}
+Huiji Gao, Jiliang Tang, Xia Hu, and Huan Liu, \emph{Content-aware point of
+  interest recommendation on location-based social networks}, AAAI Conference
+  on Artificial Intelligence (AAAI), 2015.
+
+\bibitem{gavalas2015ecompass}
+Damianos Gavalas, Vlasios Kasapakis, Charalampos Konstantopoulos, Grammati
+  Pantziou, Nikolaos Vathis, and Christos Zaroliagis, \emph{The ecompass
+  multimodal tourist tour planner}, Expert systems with Applications
+  \textbf{42} (2015), no.~21, 7303--7316.
+
+\bibitem{gavalas2014survey}
+Damianos Gavalas, Charalampos Konstantopoulos, Konstantinos Mastakas, and
+  Grammati Pantziou, \emph{A survey on algorithmic approaches for solving
+  tourist trip design problems}, Journal of Heuristics \textbf{20} (2014),
+  no.~3, 291--328.
+
+\bibitem{NIPS2014_5423}
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+  Sherjil Ozair, Aaron Courville, and Yoshua Bengio, \emph{Generative
+  adversarial nets}, Advances in Neural Information Processing Systems (NIPS),
+  Curran Associates, Inc., 2014, pp.~2672--2680.
+
+\bibitem{8509321}
+C.~Guo, B.~Yang, J.~Hu, and C.~Jensen, \emph{Learning to route with sparse
+  trajectory sets}, IEEE International Conference on Data Engineering (ICDE),
+  vol.~00, Apr 2018, pp.~1073--1084.
+
+\bibitem{herzog2017recommending}
+Daniel Herzog, \emph{Recommending a sequence of points of interest to a group
+  of users in a mobile context}, ACM Conference on Recommender Systems
+  (RecSys), ACM, 2017, pp.~402--406.
+
+\bibitem{herzog2016exploiting}
+Daniel Herzog and Wolfgang W{\"o}rndl, \emph{Exploiting item dependencies to
+  improve tourist trip recommendations.}, The Workshop on Recommenders in
+  Tourism co-located with 10th ACM Conference on Recommender Systems
+  (RecTour@RecSys), 2016, pp.~55--58.
+
+\bibitem{Kurashima:2010:TRR:1871437.1871513}
+Takeshi Kurashima, Tomoharu Iwata, Go~Irie, and Ko~Fujimura, \emph{Travel route
+  recommendation using geotags in photo sharing sites}, ACM International
+  Conference on Information and Knowledge Management (CIKM) (New York, NY,
+  USA), CIKM '10, ACM, 2010, pp.~579--588.
+
+\bibitem{lim2015personalized}
+Kwan~Hui Lim, Jeffrey Chan, Christopher Leckie, and Shanika Karunasekera,
+  \emph{Personalized tour recommendation based on user interests and points of
+  interest visit durations.}, International Joint Conferences on Artificial
+  Intelligence (IJCAI), vol.~15, 2015, pp.~1778--1784.
+
+\bibitem{AAAI1816599}
+Tianyu Liu, Kexiang Wang, Lei Sha, Baobao Chang, and Zhifang Sui,
+  \emph{Table-to-text generation by structure-aware seq2seq learning}, AAAI
+  Conference on Artificial Intelligence (AAAI), 2018.
+
+\bibitem{10.1007/978-3-319-91452-7_5}
+Wei Liu, Zhi-Jie Wang, Bin Yao, Mengdie Nie, Jing Wang, Rui Mao, and Jian Yin,
+  \emph{Geographical relevance model for long tail point-of-interest
+  recommendation}, Database Systems for Advanced Applications (DASFAA) (Cham)
+  (Jian Pei, Yannis Manolopoulos, Shazia Sadiq, and Jianxin Li, eds.), Springer
+  International Publishing, 2018, pp.~67--82.
+
+\bibitem{Liu:2017:EEP:3115404.3115407}
+Yiding Liu, Tuan-Anh~Nguyen Pham, Gao Cong, and Quan Yuan, \emph{An
+  experimental evaluation of point-of-interest recommendation in location-based
+  social networks}, International Conference on Very Large Data Bases (VLDB)
+  \textbf{10} (2017), no.~10, 1010--1021.
+
+\bibitem{memon2015travel}
+Imran Memon, Ling Chen, Abdul Majid, Mingqi Lv, Ibrar Hussain, and Gencai Chen,
+  \emph{Travel recommendation using geo-tagged photos in social media for
+  tourist}, Wireless Personal Communications \textbf{80} (2015), no.~4,
+  1347--1362.
+
+\bibitem{souffriau2010tourist}
+Wouter Souffriau and Pieter Vansteenwegen, \emph{Tourist trip planning
+  functionalities: State-of-the-art and future}, International Conference on
+  Web Engineering (ICWE), Springer, 2010, pp.~474--485.
+
+\bibitem{SUN2015110}
+Yeran Sun, Hongchao Fan, Mohamed Bakillah, and Alexander Zipf, \emph{Road-based
+  travel recommendation using geo-tagged images}, Computers, Environment and
+  Urban Systems \textbf{53} (2015), 110 -- 122, Special Issue on Volunteered
+  Geographic Information.
+
+\bibitem{sun2015road}
+Yeran Sun, Hongchao Fan, Mohamed Bakillah, and Alexander Zipf, \emph{Road-based
+  travel recommendation using geo-tagged images}, Computers, Environment and
+  Urban Systems \textbf{53} (2015), 110--122.
+
+\bibitem{DBLP:conf/nips/SutskeverVL14}
+Ilya Sutskever, Oriol Vinyals, and Quoc~V. Le, \emph{Sequence to sequence
+  learning with neural networks}, Advances in Neural Information Processing
+  Systems (NIPS), 2014, pp.~3104--3112.
+
+\bibitem{Vansteenwegen2007}
+Pieter Vansteenwegen and Dirk Van~Oudheusden, \emph{The mobile tourist guide:
+  An or opportunity}, OR Insight \textbf{20} (2007), no.~3, 21--27.
+
+\bibitem{doi:10.1080/13658816.2018.1458988}
+Lin Wan, Yuming Hong, Zhou Huang, Xia Peng, and Ran Li, \emph{A hybrid ensemble
+  learning method for tourist route recommendations based on geo-tagged social
+  networks}, International Journal of Geographical Information Science (IJGIS)
+  \textbf{32} (2018), no.~11, 2225--2246.
+
+\bibitem{wang2018etour}
+Chunwei Wang, Yuanning Gao, Xiaofeng Gao, Bin Yao, and Guihai Chen,
+  \emph{etour: A two-layer framework for tour recommendation with super-pois},
+  International Conference on Service-Oriented Computing (ICSOC), Springer,
+  2018, pp.~771--778.
+
+\bibitem{zheng2017using}
+Weimin Zheng, Zhixue Liao, and Jing Qin, \emph{Using a four-step heuristic
+  algorithm to design personalized day tour route within a tourist attraction},
+  Tourism Management \textbf{62} (2017), 335--349.
+
+\bibitem{Zheng:2009:MIL:1526709.1526816}
+Yu~Zheng, Lizhu Zhang, Xing Xie, and Wei-Ying Ma, \emph{Mining interesting
+  locations and travel sequences from gps trajectories}, International
+  Conference on World Wide Web (WWW), ACM, 2009, pp.~791--800.
+
+\bibitem{doi:10.1111/tgis.12248}
+Zhiqiang Zou, Zhe Yu, and Kai Cao, \emph{An innovative gps trajectory data
+  based model for geographic recommendation service}, Transactions in GIS
+  \textbf{21}, no.~5, 880--896.
+
+\end{thebibliography}
