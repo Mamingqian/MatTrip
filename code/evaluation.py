@@ -39,7 +39,6 @@ def timeSince(since):
     return str(s)
 
 def EvaPerformance(city = "Toronto", method = "Random", beamWidth = 1, isForceEnd=False, isWeather=False, isOpening = False, cons = [], maxLen = 10, numTime=None):
-
     if city=="Toronto":
         data = CityData("Toronto")
         LTEncoder = torch.load("result/LT_Encoder_trt.pkl")
@@ -74,7 +73,7 @@ def EvaPerformance(city = "Toronto", method = "Random", beamWidth = 1, isForceEn
         Decoder = torch.load("result/v2_Decoder_osak.pkl")
 
         baseline = Baseline(encoder = LTEncoder, decoder = LTDecoder, poiPos = data.poiPos, dataset = data)
-        
+
 
         PrefMNTREncoder = torch.load("result/pref_PrefEncoder_osak.pkl")
         PrefMNTRDecoder = torch.load("result/pref_Decoder_osak.pkl")
@@ -167,7 +166,7 @@ def EvaPerformance2(city = "Toronto", method = "MNTR", beamWidth = 1, isForceEnd
     if city=="Toronto":
         data = CityData("Toronto")
 
-        #MNTR
+        #MNT
         PrefEncoder = torch.load("result/v2_PrefEncoder_trt2.pkl")
         PosEncoder = torch.load("result/v2_PosEncoder_trt2.pkl")
         Decoder = torch.load("result/v2_Decoder_trt2.pkl")
@@ -246,11 +245,11 @@ def EvaPerformance2(city = "Toronto", method = "MNTR", beamWidth = 1, isForceEnd
 
         route = data.RouteData[newIndex]
         generator.encode(pref_i, pos_i)
-        recRoute = generator.BeamSearch(minLength=5, maxLength=maxLen,beamWidth=beamWidth)
+        recRoute = generator.BeamSearch(minLength=5, maxLength=maxLen,beamWidth=beamWidth)  #此处生成路径
 
         end = time.time()
         allTime.append(end-start)
-        allF1.append(f1(route, recRoute))
+        allF1.append(f1(route, recRoute))   #计算F1
         allF2.append(f1(route, recRoute, isInclude=True))
         allR1.append(recall(route, recRoute))
         allR2.append(recall(route, recRoute, isInclude=True))
@@ -337,7 +336,7 @@ if __name__ == "__main__":
     # EvaPerformance("Osaka", "Dist")
     # EvaPerformance("Toronto", "Pref")
     # EvaPerformance("Osaka", "Pref")
-    # EvaPerformance("Toronto", "MNTR", beamWidth=1, isForceEnd=True, maxLen=15)
+    EvaPerformance("Toronto", "MNTR", beamWidth=1, isForceEnd=True, maxLen=15)
     # EvaPerformance("Toronto", "MNTR", beamWidth=2, isForceEnd=True, maxLen=15)
     # EvaPerformance("Toronto", "MNTR", beamWidth=3, isForceEnd=True, maxLen=15)
     # EvaPerformance("Toronto", "MNTR", beamWidth=4, isForceEnd=True, maxLen=15)
