@@ -1,3 +1,37 @@
+### 10-18 讨论记录
+1. 论文内容梳理（分3部分，背景准备部分、 模型算法部分、 实验总结部分）
+    - Intro
+        - 1. 旅游推荐是什么。 现在有大量的数据集能支持这件事。应该是比较符合TKDE的风格的。
+        - 2. 现有模型数学优化为何不行，举例说明
+        - 3. 进一步解释问题的复杂性，路径中“语义”的定义
+        - 4. 现有模型神经网络的缺陷。 说明Request, functionality是什么。 神经网络模型通常难以考虑这个
+        - 5. 模型概况：名称、解决的2大关键问题、主要涉及到的深度学习技术
+        - 6. （有点问题，需要再提炼）创新点小结
+    - Related work：reviews related studies in tour recommendation, especially recommendation with functionalities and machine learning based methods
+    - Section III formulates the problem precisely.
+    - Section IV presents the proposed MatTrip model, with detailedframework descriptions. 
+    - Section V presents the trace datasets and experiment results. 
+    - Section VI concludes the paper andshows our future directions.
+
+2. 发现的可修改点、审稿意见 再读
+    
+    - * 加建模： 解释建模动机（虽然其实顺序不是这样）。 有一个重构的想法，把几个functionality直接提到问题建模里面去，要求设计模型能满足这些个条件
+        - weather dependency
+        - POI opening hours
+        - restricted sequence length
+        - mandatory POIs
+        - dynamic route revision
+    逻辑上： 首先论证，旅游推荐的路线推荐，为什么需要这些功能（查文献，游客通常需要些什么。也可结合自己的旅行经验来写）
+    - * 补一个相关工作实现functionality的列表 （很多文章都是空的，除了DTRP），
+    - * related work 部分增补关于现有 数学优化模型 方向工作的缺陷分析： 计算复杂，人工特征不能覆盖所有信息... 写作时注意引经据典。
+    - * related work II.B 第二段增补近年工作用到了他人信息的，但是也存在冷启动、数据稀疏等问题。
+
+3. 工作思路整理
+    - 先着手从小处改起来，写文章“登门槛”
+    - 两个关键点 implicit information，张嘉乐去探究，继续看问题建模和深度网络部分； trip planning functionalities 马鸣谦去拆，按2中修改点中related work部分增补
+
+
+
 ### 10-11交流记录
 - 1. 整理审稿意见,见共享腾讯文档。 仔细梳理文章内容，通过解答问题把文章技术内容理清楚。
 - 2. 写作， 
