@@ -1,3 +1,35 @@
+### 11-8讨论
+1. 修改框架确定，6点，一人改三点
+- 张嘉乐
+    - 问题定义可以改， 文章写作上修改比较大           
+    - GBS升维留给新的文章，参考TC2016，《算法导论》， 再加上GNN，pointer network技术（转刊版本二维GBS加点讨论、证明，也参考TC2016，《算法导论》，《人工智能：一种现代方法》中 ）  
+    - 文献调研加ML4CO。（问 高宇岑 要一下文献调研成果， 有KDD2022实验代码graph2route）。写文章，重画图，做表
+- 马鸣谦
+   - 加FM做预处理部分（ 转刊difference,核心技术变化)       
+   - 实验部分可以， 根据实际情况加（有就用，没有就去掉）       
+   - 文献调研改表，写文章，重画图，做表   
+2. 调研表修改： 左侧加分类树状结构，把机器学习右侧比较稀疏的合并。 下次在处理打勾稀疏问题。
+3. FM问题，写到文章
+    - 31. 问题定义： 矩阵缺失值填充问题
+    - 32. 关于用户的定义， 单个序列看做用户不合理，修改。
+    - 33. 关于为何选择Funk-SVD的讨论
+    - 34. 关于填充结果，和类别标签的对比实验， 可以调参（对于多次访问算几次的处理）
+4. 实验设计    
+    - 数据集增加：找带category的 可以自己处理路径
+    - Route Recommendation：f-1 score, 增加edit distance 和文章里新提到的算法做对比
+    - **Dynamic Revison的实验修改**： 不加GBS维度，当用户修改单个点时直接修改RNN输出（即下一时刻输出）状态为one-hot，并且清空GBS此前的内容，从这一点继续往后用GBS。
+    如何评价dynamic revision的表现： case study, 用一些例子，在第一个出现不符合历史数据的点上dynamic revision, 观察后续点是否会吻合的更好/更差，在地图上可视化。
+    - Mandatory, Unavailable: 作为预实验 随机指定若干unavailable/mandatory 看100次能满足几次。 注意随机生成时需要和测试集相符，即强制点在测试集的Ground Truth内，unavailable的不在。 
+    unavailable的时间窗口是否考虑：可以加，随机生成点对（POI,不能出现在序列的第几个）。 随机指定若干unavailable/mandatory， 看100次中其他baseline能满足几次。 
+    - Next POI（前面基本够了，可能不做了）：做acc1/5/10，ndcg1/5/10 比较和现有next poi sota算法差距
+
+- 另外聊天：
+    - JOJ团队，有个法国老师带的，一直有新人。  https://www.ji.sjtu.edu.cn/cn/about/faculty-staff/faculty-directory/faculty-detail/76/
+    - 数模组队建议，实验室； 准备建议，可视化和各种工具
+
+
+
+
 ### 11-1讨论
 一. 内容讨论： 细化深化对文章内容技术的理解程度， 为通过分析评价来增补内容做准备
 论文第三部分， Section V,VI
